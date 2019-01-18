@@ -13,6 +13,8 @@ import java.util.Scanner;
  * Legen Sie eine statische Liste "konten" an, in der Sie die einzelnen Konten speichern
  *
  */
+
+
 public class Main {
 
   // die Konstanten sind package-scoped wegen der Unit-Tests
@@ -23,7 +25,8 @@ public class Main {
   static final String BUCHUNGSDATEI = "buchungen.csv";
   static final String ERGEBNISDATEI = "ergebnis.csv";
 
-  
+
+  static ArrayList<BankKonto> konten = new ArrayList<BankKonto>();
   /**
    * Führen Sie die drei Methoden erstelleKonten, fuehreBuchungenDurch und
    * findKontoPerName aus

@@ -7,6 +7,13 @@
     <groupId>at.htl</groupId>
     <artifactId>bank</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>at.htl</groupId>
+            <artifactId>bank</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <packaging>jar</packaging>
 
     <properties>
